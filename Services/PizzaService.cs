@@ -11,8 +11,8 @@ namespace WebAppDETAug2022.Services
         {
             Pizzas = new List<pizza>
                 {
-                    new pizza { Id = 1, Name = "Classic Italian", Price=20.00M, Size=PizzaSize.    Large, IsGlutenFree = false },
-                    new pizza { Id = 2, Name = "Veggie", Price=15.00M, Size=PizzaSize.Small,     IsGlutenFree = true }
+                    new pizza { Id = 1, Name = "Classic Italian", Price=20.00M, Size=PizzaSize.Large, IsGlutenFree = false },
+                    new pizza { Id = 2, Name = "Veggie", Price=15.00M, Size=PizzaSize.Small,IsGlutenFree = true }
                 };
         }
 
